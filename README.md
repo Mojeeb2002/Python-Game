@@ -1,6 +1,6 @@
 # Number Guesser Game
 
-A modern, GUI-based number guessing game built with Python and PyQt5. The game features a sleek dark theme interface and includes score tracking with PostgreSQL database integration.
+A modern, GUI-based number guessing game built with Python and PyQt5. The game features a sleek dark theme interface and includes score tracking with PostgreSQL database integration for saving scores.
 
 ## Features
 
@@ -26,7 +26,7 @@ A modern, GUI-based number guessing game built with Python and PyQt5. The game f
 
 ```bash
 git clone https://github.com/Mojeeb2002/Python-Game.git
-cd number-guesser
+cd Python-Game
 ```
 
 2. Install uv if you haven't already:
@@ -49,6 +49,11 @@ uv pip install -r requirements.txt
    ```
    DATABASE_URL=postgresql://username:password@localhost:5432/number_guesser
    ```
+   - Or using SQLite3 directly, by replacing the DATABASE_URL in the .env file with:
+   ```
+   DATABASE_URL=sqlite:///database.db
+   ```
+   and Walaa, you are all set to go!
 
 ## How to Play
 
