@@ -25,7 +25,7 @@ A modern, GUI-based number guessing game built with Python and PyQt5. The game f
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Mojeeb2002/Python-Game.git
 cd number-guesser
 ```
 
